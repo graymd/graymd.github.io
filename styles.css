@@ -1,0 +1,35 @@
+body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.octocat{
+  width: 20px;
+  height: 20px;
+}
+
+.jumbotron{
+  background-color: navy;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  border-radius: 13px;
+}
+
+.screenshot{
+  width: 200px;
+  height: 200px;
+}
+
+.my-image{
+  border-radius: 30px;
+}
+
+.contact-me{
+  
+}
+
+.maddie-image{
+  height: 300px;
+  width: 200px;
+}
