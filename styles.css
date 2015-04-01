@@ -42,6 +42,11 @@ body {
   width: 30px;
 }
 
+.icon-li{
+  display: inline-block;
+  padding: 20px;
+}
+
 .glyphicon.glyphicon-heart{
     font-size: 30px;
 }
@@ -61,6 +66,8 @@ nav.navbar {
   border: none;
   background-color: #fcfdf8;
 }
+
+
 
 @media (max-width: 992px) {
   nav.affix {
@@ -97,4 +104,7 @@ nav.navbar {
 
 }
 
+.small-nav-icon{
+  font-size: 20px;
+}
 
