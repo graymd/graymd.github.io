@@ -16,6 +16,14 @@ body {
   border-radius: 13px;
 }
 
+.my-info{
+  font-family: 'Sanchez', serif;
+}
+
+.project-name{
+  font-family: 'Sanchez', serif;
+}
+
 .screenshot{
   width: 200px;
   height: 200px;

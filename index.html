@@ -6,17 +6,20 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <link href='http://fonts.googleapis.com/css?family=Sanchez:400italic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="col-md-10 col-md-offset-1">
-    <row>
-      <div class="jumbotron">
-          <center><h1>Hello, world!</h1></center>
-          <p>My name is <strong>Malachi Gray</strong>.  For the first 12 weeks of 2015, I attended an intense immersive web application development bootcamp, The Iron Yard (TIY) in Charleston, SC, where I became a full stack Ruby on Rails engineer.  Browse around to learn more about me and see some of the cool work that I've done.  I'm now ready to enter the wild as a coder!</p>
-      </div>
-    </row>
-    <row>
+    <div class='row'>
+      <div class='col-md-8 col-md-offset-2'>
+      <center><h1>Hello, world!</h1></center>
+      <p><h4>My name is <strong>Malachi Gray</strong>.  For the first 12 weeks of 2015, I attended an intense immersive web application development bootcamp, The Iron Yard (TIY) in Charleston, SC, where I became a full stack Ruby on Rails engineer.  Browse around to learn more about me and see some of the cool work that I've done.  I'm now ready to enter the wild as a coder!  If you are looking for a hard working individual to join your team, please contact me...I'd love to talk to you!</h4></p>
+    </div>
+    </div>
+    <hr>
+    <div class='row'>
+      <span class='my-info'>
       <center>
         <h2>
           Malachi D. Gray
@@ -29,14 +32,15 @@
           <br>
           <a href='tel:+15404130116'>540.413.0116</a>
         </h2>
-        <a href='malachi_gray_resume.pdf'>Click here to view my resume</a>
+        <span class="glyphicon glyphicon-plane icon" aria-hidden="true"></span><a href='malachi_gray_resume.pdf'>Click here to view my resume</a>
       </center>
-    </row>
+    </span>
+    </div>
     <hr>
     <row>
       <center><h2>A few of my projects:</h2></center>
       <div class="col-md-4">
-        <center><h3>The Charleston Basketlist</h3>
+        <center><h3><span class='project-name'>The Charleston Basketlist</span></h3>
         <a href='http://charlestonbasketlist.herokuapp.com' target='_blank'><img src='./images/basketlist-screenshot1.png' class='screenshot'></a></center>
         <br>
         Click the image to see the project deployed on Heroku!
@@ -70,7 +74,7 @@
         <a href='https://github.com/graymd/bucketlist_app' target='_blank'>Click here</a> to check out the code on GitHub.
       </div>
       <div class="col-md-4">
-        <center><h3>TIY Homework Tracker</h3>
+        <center><h3><span class='project-name'>TIY Homework Tracker</span></h3>
         <a href='https://malachigray-hwtracker.herokuapp.com/' target='_blank'><img src='./images/hw-tracker-screenshot1.png' class='screenshot'></a></center>
         <br>
         Click the image to see the project deployed on Heroku!
@@ -104,7 +108,7 @@
         <a href='https://github.com/graymd/HW_Tracker' target='_blank'>Click here</a> to check out the code on GitHub.
       </div>
       <div class="col-md-4">
-        <center><h3>Hospital Tracking System</h3>
+        <center><h3><span class='project-name'>Hospital Tracking System</span></h3>
         <a href='https://malachigray-hospitalproject.herokuapp.com/' target='_blank'><img src='./images/hospital-tracker-screenshot1.png' class='screenshot'></a></center>
         <br>
         Click the image to see the project deployed on Heroku!
@@ -148,7 +152,7 @@
         <img src='./images/Malachi_Gray.jpg' class='my-image'>
       </div>
       <div class='col-md-10'>
-        I spent six years as a project analyst for the government.  In addition, I'm a single/multi-engine flight instructor (not for the past 2 years).  I decided I wanted to change careers to something that I have a passion for and which would allow me to really make a difference.  For the first 12 weeks of 2015, I attended The Iron Yard learning Ruby on Rails, JavaScript and a multitude of other web technologies.  I truly believe coding is the best field there is and I'm super excited to be a web developer.
+        I spent six years as a project analyst for the government.  In addition, I'm a single/multi-engine flight instructor (inactive for the past 2 years).  I decided I wanted to change careers to something that I have a passion for and which would allow me to really make a difference.  For the first 12 weeks of 2015, I attended The Iron Yard learning Ruby on Rails, JavaScript and a multitude of other web technologies.  I truly believe coding is the best field there is and I'm super excited to be a web developer.
         <br>
         In my spare time, I like learning new things, playing/exploring outdoors, playing in the water and spending time with my wife and dog.
         <br>
@@ -176,21 +180,21 @@
   </div>
 
   <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">My Bestest Friend</h4>
-      </div>
-      <div class="modal-body">
-        <img src='./images/maddie-image.jpg' class='maddie-image'>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">My Bestest Friend</h4>
+        </div>
+        <div class="modal-body">
+          <img src='./images/maddie-image.jpg' class='maddie-image'>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
       </div>
     </div>
-  </div>
 </div>
 </body>
 </html>
