@@ -35,8 +35,8 @@ body {
 }
 
 .glyphicon.glyphicon-heart{
-    font-size: 30px;
-    padding-bottom: 0;
+    font-size: 25px;
+/*    padding-bottom: 0;*/
 }
 
 .blogger{
@@ -87,5 +87,6 @@ nav .list-group-item {
 .small-nav-icon{
   font-size: 20px;
 }
+
 
 
