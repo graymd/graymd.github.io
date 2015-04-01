@@ -3,19 +3,6 @@ body {
   font-family: sans-serif;
 }
 
-/*.octocat{
-  width: 20px;
-  height: 20px;
-}*/
-
-.jumbotron{
-  background-color: navy;
-  color: white;
-  padding-top: 50px;
-  padding-bottom: 20px;
-  border-radius: 13px;
-}
-
 .my-info{
   font-family: 'Sanchez', serif;
 }
@@ -49,6 +36,7 @@ body {
 
 .glyphicon.glyphicon-heart{
     font-size: 30px;
+    padding-bottom: 0;
 }
 
 .blogger{
@@ -67,16 +55,20 @@ nav.navbar {
   background-color: #fcfdf8;
 }
 
+nav .list-group-item {
+  background-color: navy;
+  color: #fff;
+}
 
 
-@media (max-width: 992px) {
+/*@media (max-width: 992px) {
   nav.affix {
     margin-left: 0px;
   }
 
-}
+}*/
 
-@media (max-width: 768px) {
+@media (max-width: 980px) {
 
   nav.affix {
     display: none;
@@ -90,21 +82,10 @@ nav.navbar {
     display: block;
   }
 
-  .screen-shot {
-    display: block;
-    margin-top: 0;
-    padding-top: 15px;
-  }
-
-  #contact .portrait img {
-    width: 100%;
-    border-radius: 50%;
-    max-width: 150px;
-  }
-
 }
 
 .small-nav-icon{
   font-size: 20px;
 }
+
 
