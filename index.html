@@ -1,6 +1,9 @@
-<html>
-<head>
-  <meta charset="UTF-8">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Malachi's Portfolio</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
@@ -10,11 +13,85 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+
+<div class="container-fluid">
+  <!-- Hidden except at xs size -->
+          <nav class="navbar navbar-fixed-bottom" role="navigation">
+            <div class="container">
+          
+                <div class="row">
+                
+                  <a href="#home">
+                    <div class="col-xs-3 text-center navblock">
+                      <span class="glyphicon glyphicon-home icon" aria-hidden="true"></span>
+                    </div>
+                  </a>
+                
+                
+                  <a href="#about-me">
+                    <div class="col-xs-3 text-center navblock">
+                      <span class="glyphicon glyphicon-user icon" aria-hidden="true"></span>
+                    </div>    
+                  </a>
+                
+                
+                  <a href="malachi_gray_resume.pdf">
+                    <div class="col-xs-3 text-center navblock">
+                      <span class="glyphicon glyphicon-plane icon" aria-hidden="true"></span>
+                    </div>
+                  </a>
+                
+                
+                  <a href="mailto:malachi.d.gray@gmail.com?subject=Your Awesome Portfolio" target="_blank">
+                    <div class="col-xs-3 text-center navblock">
+                      <span class="glyphicon glyphicon-envelope icon" aria-hidden="true"></span>
+                    </div>
+                  </a>
+
+                  <a href="#contact">
+                    <div class="col-xs-3 text-center navblock">
+                      <span class="glyphicon glyphicon-heart-empty icon" aria-hidden="true"></span>
+                    </div>
+                  </a>
+                
+              </div>
+            </div>
+          </nav>
+          <!-- Hidden except at xs size -->
+
+          <!-- Hidden only at xs size -->
+  <nav class="affix" role="navigation">
+    <div class="list-group">
+      <a href="#home" class="list-group-item"><div>Home</div></a>
+      <a href="#about-me" class="list-group-item"><div>About Me</div></a>
+      <a href="malachi_gray_resume.pdf" class="list-group-item"><div>Resume</div></a>
+      <a href="mailto:malachi.d.gray@gmail.com?subject=Your Awesome Portfolio" target="_blank" class="list-group-item"><div>Email Me</div></a>
+    </div>
+  </nav>
+          <!-- Hidden only at xs size -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <div class="col-md-10 col-md-offset-1">
     <div class='row'>
       <div class='col-md-8 col-md-offset-2'>
+        <header id='home'>
         <center><h1>Hello, world!</h1></center>
           <p><h4>My name is <strong>Malachi Gray</strong>.  For the first 12 weeks of 2015, I attended an intense immersive web application development bootcamp, The Iron Yard (TIY) in Charleston, SC, where I became a full stack Ruby on Rails engineer.  Browse around to learn more about me and see some of the cool work that I've done.  I'm now ready to enter the wild as a coder!  If you are looking for a hard working individual to join your team, please contact me (info below)...I'd love to talk to you!</h4></p>
+        </header>
       </div>
     </div>
     <hr>
@@ -143,7 +220,7 @@
     </div>
     <div class="row col-md-12">
       <hr>
-
+      <section id='about-me'>
       <center><h2>About Me</h2></center>
       <br>
       <div class='col-md-2'>
@@ -162,11 +239,12 @@
           |
           <a href='tel:+15404130116'><span class="glyphicon glyphicon-phone" aria-hidden="true"></span>540.413.0116</a>
         </center>
+      </section>
         <br>
         <br>
 
         <center>
-          <div class='col-md-1 col-md-offset-3'>
+          <div class='col-md-1 col-md-offset-4'>
             <a href='https://www.linkedin.com/pub/malachi-gray/91/967/2b0' target="_blank"><img src='./images/linked-in.png' class='icon'></a>
           </div>
           <div class='col-md-1'>  
@@ -174,7 +252,7 @@
               <img src="./images/GitHub-Mark-64px.png" class='octocat icon'></a>
           </div>
           <div class='col-md-1'> 
-            <span class="glyphicon glyphicon-heart icon" aria-hidden="true" data-toggle="modal" data-target="#myModal"></span>
+            <a><span class="glyphicon glyphicon-heart icon" aria-hidden="true" data-toggle="modal" href="#myModal"></span></a>
           </div>
           <div class='col-md-1'> 
             <a href='http://spreadsheets2rails.blogspot.com/' target="_blank"><img src="./images/blogger-icon.png" class='blogger icon'></a>
@@ -183,6 +261,7 @@
       </div>
     </div>
   </div>
+
 
 <!-- Modal -->
   <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -203,6 +282,8 @@
       </div>
     </div>
   </div>
+</div>
+
 </body>
 </html>
 

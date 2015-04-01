@@ -55,3 +55,46 @@ body {
   width: 200px;
 /*  border-radius: 50px;*/
 }
+
+nav.navbar {
+  display: none;
+  border: none;
+  background-color: #fcfdf8;
+}
+
+@media (max-width: 992px) {
+  nav.affix {
+    margin-left: 0px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  nav.affix {
+    display: none;
+  }
+
+  body {
+    margin-bottom: 50px;
+  }
+
+  nav.navbar {
+    display: block;
+  }
+
+  .screen-shot {
+    display: block;
+    margin-top: 0;
+    padding-top: 15px;
+  }
+
+  #contact .portrait img {
+    width: 100%;
+    border-radius: 50%;
+    max-width: 150px;
+  }
+
+}
+
+
